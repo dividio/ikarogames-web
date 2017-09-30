@@ -1,0 +1,131 @@
+
+body
+{
+    background: #6F943F url(images/background2.jpg) repeat-x 50% 0;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    width:770px;
+    float:none;
+    margin:0px auto;
+    color:#f3f3f3;
+    font-family:verdana, sans-serif;
+}
+
+/* GLOBAL STYLES */
+* {margin: 0; padding: 0; border: 0; font-weight: normal}
+
+/* HEADINGS */
+h1, h2, h3, h4 {margin: 0 15px; color: #fff; text-align: left; font-family: Georgia, Georgia, serif}
+h1 {color: #fff; line-height: 210px; font-size: 2.50em; letter-spacing: 3px}
+h1 a:link, h1 a:visited, h1 a:active {color: #fff; text-decoration: none; border: 0}
+h1 a:hover {border-bottom: 1px solid #fff}
+
+
+/* KEY LAYOUT DIVS */
+
+#container {  /* all divs are contained in this div and it is positioned centrally */
+    margin: 0 auto;  /* positions div centrally */
+    width: 770px; /* Suits an 800x600 page, allowing for scrollbar */
+    background: transparent;
+    overflow: visible;
+}
+
+#hdr {
+    margin: 0;
+    text-align: left;
+    width: 770px;
+    height: 215px;
+    background: #0593E7 url(images/background.jpg) 50% 0 no-repeat;
+}
+
+#block1, #block2, #block3 {
+    margin: 0;
+    text-align: left;
+    background: #638C2C;
+    border: 1px solid #496B1E;
+}
+
+#screens {
+    margin: 0px;
+    text-align: center;
+}
+
+#screens img {
+    margin: 20px;
+}
+
+#screens a:link, #screens a:visited, #screens a:active {color: #fff; text-decoration: none; border: 0}
+
+#bttmbar {  /* bottom bar for copyright etc */
+    width: 570px;
+    height: 50px;
+    background: transparent
+}
+
+p,h2,ul {
+    padding:15px;
+}
+
+h2 {
+    margin-top:25px;
+    border-left:25px #3E7943 solid;
+    font-size: 1.70em;
+    color:#2E6923;
+    background-color:#f3f3f3;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+ul {
+    list-style:none;
+
+}
+
+a {
+    text-decoration:none;
+    color:#ffffff;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+a:hover{
+    border-bottom: 1px solid #fff;
+    color:#f3f3f3;
+}
+
+img
+{
+    border-style:none;
+    text-decoration:none;
+}
+
+.menu
+{
+    word-spacing: 80px;
+    font-size: 2.0em;
+    height:10px;
+}
+
+.codigo
+{
+    display:block;
+    padding:15px;
+    background-color:#a2bf7c;
+    color:#111122;
+    font-family:monospace;
+    border: 2px dashed #45661a;
+}
+
+.linksblock
+{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+.links
+{
+    margin-left:10px;
+    margin-right:10px;
+}
